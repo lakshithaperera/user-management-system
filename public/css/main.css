@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+
+:root{
+  --color-primary: #5D3FD3;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color:#E6E6FA !important;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+button, .btn, .usr{
+  font-family: 'Josefin Sans', sans-serif;
+  transition: 0.4s;
+}
+#nav{
+  background-color: var(--color-primary) !important;
+}
+
+table{
+  border: 1px solid #c1b7eb !important;
+}
+
+table tr td{
+  font-size: 15px;
+  color:#484c4f;
+}
+
+table tr td .btn{
+  color: #393257;
+  position: relative;
+  transition: 0.4s;
+}
+
+
+table tr td .btn-view{
+  background: #9FE2BF;
+}
+
+table tr td .btn-edit{
+  background:  	#CBC3E3;
+}
+table tr td .btn-del{
+  background: #f6bbbb;
+}
+.navbar-brand{
+  text-transform: uppercase;
+}
+.add-user{
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+.add-user:hover{
+  color: #ffffff;
+  background: var(--color-primary);
+}
+
+/************page-animation*************/
+
+.container-animate{
+  transition: 0.4s;
+  animation: animate .5s linear;
+}
+
+@keyframes animate{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+.breadcrumb-item a{
+  color: var(--color-primary);
+}
+.text-tx{
+  font-size: 14px;
+  color: #484c4f;
+}
+
+.submit-btn{
+  color: var(--color-primary);
+  background: transparent;
+  border: 2px solid var(--color-primary);
+}
+.submit-btn:hover{
+  color: #ffffff !important;
+  background: var(--color-primary);
+  transition: 0.4s;
+  
+}
+
+
